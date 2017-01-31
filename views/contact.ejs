@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<% include partials/head.ejs %>
+  <body>
+    <% include partials/header.ejs %>
+    <main>
+      <h1 class="center"><%= title %></h1>
+      <hr>
+    <ul class="center">
+      <h2><i class="material-icons">perm_identity</i> <%= name %></h2>
+      <h2><i class="material-icons">email</i> <%= email %></h2>
+      <h2><a href="https://www.facebook.com/matt.kersner" target="_blank">Facebook</a></h2>
+      <h2><a href="https://www.linkedin.com/in/matt-kersner-39630616" target="_blank">LinkedIn</a></h2>
+      <h2><a href="http://aflyonthewallofsound.blogspot.com/" target="_blank">Music Blog</a></h2>
+    </ul>
+    </main>
+    <% include partials/footer.ejs %>
+    <% include partials/jsdefaults.ejs %>
+  </body>
+</html>

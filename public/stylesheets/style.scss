@@ -1,0 +1,46 @@
+$grey: #2F3C4F;
+$lightgrey: #506E86;
+$orange: #FCB040;
+$darkorange: #DE703B;
+
+body {
+  font: 14px 'Fira Sans Extra Condensed', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-wrapper {
+  background-color: $grey;
+  a {
+    color: $orange;
+    &:hover {
+      color: $darkorange;
+    }
+  }
+}
+
+article {
+  color: $darkorange;
+  p {
+    font-size: 2em;
+  }
+}
+
+footer.page-footer {
+  background-color: $grey;
+  color: white;
+  .footer-copyright {
+    color: $orange;
+  }
+  a {
+    color: $orange;
+    &:hover {
+      color: $darkorange;
+    }
+  }
+}

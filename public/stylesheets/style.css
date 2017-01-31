@@ -1,0 +1,32 @@
+body {
+  font: 14px 'Fira Sans Extra Condensed', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.nav-wrapper {
+  background-color: #2F3C4F; }
+  .nav-wrapper a {
+    color: #FCB040; }
+    .nav-wrapper a:hover {
+      color: #DE703B; }
+
+article {
+  color: #DE703B; }
+  article p {
+    font-size: 2em; }
+
+footer.page-footer {
+  background-color: #2F3C4F;
+  color: white; }
+  footer.page-footer .footer-copyright {
+    color: #FCB040; }
+  footer.page-footer a {
+    color: #FCB040; }
+    footer.page-footer a:hover {
+      color: #DE703B; }
+
+/*# sourceMappingURL=style.css.map */
