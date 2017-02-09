@@ -1,32 +1,61 @@
 body {
-  font: 14px 'Fira Sans Extra Condensed', sans-serif;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column; }
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
 
-main {
-  flex: 1 0 auto; }
+.navbar {
+  background-color: #34495E;
+}
 
-.nav-wrapper {
-  background-color: #2F3C4F; }
-  .nav-wrapper a {
-    color: #FCB040; }
-    .nav-wrapper a:hover {
-      color: #DE703B; }
+.subtitle {
+  font-size: 12px;
+}
 
-article {
-  color: #DE703B; }
-  article p {
-    font-size: 2em; }
+.navbar-toggle .collapsed {
+  background-color: #E4F1FE;
+}
 
-footer.page-footer {
-  background-color: #2F3C4F;
-  color: white; }
-  footer.page-footer .footer-copyright {
-    color: #FCB040; }
-  footer.page-footer a {
-    color: #FCB040; }
-    footer.page-footer a:hover {
-      color: #DE703B; }
+#logo {
+  color: #E4F1FE;
+}
 
+#logo:hover {
+  color: #8DC6FF;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #E4F1FE;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #8DC6FF;
+}
+
+#portfolio-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  text-align: center;
+  background-color: #34495E;
+  padding: 5px;
+}
+
+footer a {
+  margin: 5px;
+  color: #E4F1FE;
+}
+
+footer a:hover {
+  color: #8DC6FF;
+}
 /*# sourceMappingURL=style.css.map */
