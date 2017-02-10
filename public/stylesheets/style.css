@@ -1,10 +1,24 @@
 body {
   padding-top: 70px;
   padding-bottom: 40px;
+  font-family: 'Slabo 40px', serif;
 }
 
 .navbar {
   background-color: #34495E;
+}
+
+.panel-title {
+  font-size: 2em;
+}
+
+.panel-body {
+  font-size: 1.2em;
+}
+
+.label {
+  font-size: 1.2em;
+  display: inline-block;
 }
 
 .subtitle {

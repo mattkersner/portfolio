@@ -4,13 +4,21 @@
   <body>
     <% include partials/header.ejs %>
     <main>
-      <h1 class="text-center"><%= title %></h1>
-      <hr>
-    <div class="text-center">
-      <h3><%= name %><br>
-      <%= email %></h3>
-      <a href="https://github.com/mattkersner" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
-      <a href="https://www.linkedin.com/in/matt-kersner" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+    <div class="container text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><%= name %></h3>
+          <h4><a href="mailto:mattkersner@gmail.com?Subject=Hi%20Matt"><%= email %></a></h4>
+        </div>
+        <div class="panel-body">
+         <a href="https://github.com/mattkersner" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+         <a href="https://www.linkedin.com/in/matt-kersner" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+         <a href="https://www.facebook.com/matt.kersner" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+         <a href="https://www.instagram.com/indifferentson/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron">
     </div>
     </main>
     <% include partials/footer.ejs %>
