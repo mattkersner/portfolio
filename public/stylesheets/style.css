@@ -1,6 +1,9 @@
 body {
   padding-top: 70px;
   padding-bottom: 40px;
+}
+
+h1 {
   font-family: 'Slabo 40px', serif;
 }
 
@@ -8,26 +11,56 @@ body {
   background-color: #34495E;
 }
 
+.navbar-brand {
+  font-size: 1.5em;
+}
+
 .panel-title {
   font-size: 2em;
+  font-family: 'Slabo 40px', serif;
 }
 
 .panel-body {
   font-size: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#brandStatement {
+  font-size: 1.5em;
+}
+
+#aboutBody {
+  font-size: 1.5em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 .label {
   font-size: 1.5em;
   display: inline-block;
   margin: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
 }
 
 .subtitle {
   font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar-toggle .collapsed {
   background-color: #E4F1FE;
+}
+
+.thumbnail {
+  -webkit-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
 }
 
 #logo {
@@ -72,5 +105,24 @@ footer a {
 
 footer a:hover {
   color: #8DC6FF;
+}
+
+#btn {
+  color: #fff;
+  background-color: grey;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+}
+
+#btn:hover,
+#btn.hover {
+  background-color: darkgrey;
+  text-shadow: -1px 1px #27496d;
+}
+
+#btn:active,
+#btn.active {
+  background-color: darkgrey;
+  text-shadow: -1px 1px #193047;
 }
 /*# sourceMappingURL=style.css.map */
