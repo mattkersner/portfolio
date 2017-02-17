@@ -17,8 +17,9 @@ body {
 }
 
 .label {
-  font-size: 1.2em;
+  font-size: 1.5em;
   display: inline-block;
+  margin: 5px;
 }
 
 .subtitle {
