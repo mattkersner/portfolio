@@ -1,6 +1,14 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
   padding-top: 70px;
   padding-bottom: 40px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 h1 {
@@ -84,12 +92,31 @@ h1 {
   margin-bottom: 20px;
 }
 
-.jumbotron {
-  height: 800px;
-  background-image: url('../images/background.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.grid {
+  background: white;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
 }
 
 footer {
