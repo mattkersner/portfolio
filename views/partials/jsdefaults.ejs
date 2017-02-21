@@ -11,3 +11,17 @@
 $grid.imagesLoaded().progress( function() {
   $grid.masonry();
 });  </script>
+<script src="javascripts/jquery.go-binary.js"></script>
+<script>
+  $(document).ready(function() {
+    setTimeout(function(){
+    $("#logo").goBinary({text:"Matt Kersner"});
+  },500)
+  setTimeout(function(){
+    $("#logo").goBinary({text:"Full Stack Web Developer"});
+  },4000)
+  setTimeout(function(){
+    $("#logo").goBinary({text:"Matt Kersner"});
+  },10000)
+})
+</script>
