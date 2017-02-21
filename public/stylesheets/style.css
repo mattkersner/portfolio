@@ -117,6 +117,12 @@ h1 {
 .grid-item img {
   display: block;
   max-width: 100%;
+  opacity: .7;
+  transition: all .3s ease-in;
+}
+
+.grid-item img:hover {
+  opacity: 1;
 }
 
 footer {
