@@ -4,18 +4,15 @@
 <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 <script src="javascripts/jquery.go-binary.js"></script>
 <script>
-$(document).ready(function() {
 var $grid = $('.grid').masonry({
   itemSelector: '.grid-item',
   percentPosition: true,
   columnWidth: '.grid-sizer'
 });
 // layout Isotope after each image loads
-
-  $grid.imagesLoaded().progress( function() {
+$grid.imagesLoaded().progress( function() {
   $grid.masonry();
-  });
-})
+});
 </script>
 <script>
   $(document).ready(function() {
