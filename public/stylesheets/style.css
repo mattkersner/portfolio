@@ -162,4 +162,10 @@ footer a:hover {
   background-color: darkgrey;
   text-shadow: -1px 1px #193047;
 }
+
+@media only screen and (max-width: 414px) {
+  .grid {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
