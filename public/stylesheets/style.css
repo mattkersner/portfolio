@@ -145,25 +145,41 @@ footer a:hover {
 }
 
 #btn {
-  color: #fff;
-  background-color: grey;
-  text-shadow: -1px 1px #417cb8;
-  border: none;
+  color: black;
+  border: 1px solid grey;
 }
 
 #btn:hover,
 #btn.hover {
-  background-color: darkgrey;
-  text-shadow: -1px 1px #27496d;
+  background-color: #8DC6FF;
 }
 
 #btn:active,
 #btn.active {
-  background-color: darkgrey;
-  text-shadow: -1px 1px #193047;
+  background-color: #8DC6FF;
 }
 
-@media only screen and (max-width: 414px) {
+#btn2 {
+  color: black;
+  border: 1px solid grey;
+}
+
+#btn2:hover,
+#btn2.hover {
+  background-color: #8DC6FF;
+}
+
+#btn2:active,
+#btn2.active {
+  background-color: #8DC6FF;
+}
+
+
+.thumbnail img {
+  height: 285px;
+}
+
+@media only screen and (max-width: 500px) {
   .grid {
     display: none;
   }
