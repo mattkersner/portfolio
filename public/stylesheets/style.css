@@ -75,6 +75,12 @@ nav ul a {
   box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
 }
 
+.thumbFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 #logo {
   color: #E4F1FE;
 }
