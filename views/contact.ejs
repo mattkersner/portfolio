@@ -11,7 +11,7 @@
           <h4><a href="mailto:mattkersner@gmail.com?Subject=Hi%20Matt"><%= email %></a></h4>
         </div>
         <div class="flex panel-body">
-         <a href="https://www.instagram.com/indifferentson/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+         <a href="https://www.instagram.com/indifferentson/" target="_blank"><i id="test" class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
          <a href="https://github.com/mattkersner" target="_blank"><i class="fa fa-github-alt fa-3x" aria-hidden="true"></i></a>
          <a href="https://www.linkedin.com/in/matt-kersner" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
          <a href="https://www.facebook.com/matt.kersner" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
@@ -19,7 +19,23 @@
       </div>
     </div>
     </main>
-    <% include partials/smallgrid.ejs %>
     <% include partials/jsdefaults.ejs %>
+    <script>
+      $('.fa-instagram').mouseover(function() {
+        $(this).addClass('animated bounce infinite')
+      });
+
+      $('.fa-github-alt').mouseover(function() {
+        $(this).addClass('animated rubberBand infinite')
+      });
+
+      $('.fa-linkedin-square').mouseover(function() {
+        $(this).addClass('animated swing infinite')
+      });
+
+      $('.fa-facebook-official').mouseover(function() {
+        $(this).addClass('animated tada infinite')
+      });
+    </script>
   </body>
 </html>
