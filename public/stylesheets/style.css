@@ -37,6 +37,10 @@ nav ul a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.panel-footer {
+  font-size: 1.4em;
+}
+
 #brandStatement {
   font-size: 1.5em;
 }
@@ -73,6 +77,7 @@ nav ul a {
   -webkit-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
   -moz-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
   box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.41);
+  height: 584px;
 }
 
 .thumbFlex {
