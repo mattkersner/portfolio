@@ -89,6 +89,12 @@ nav ul a {
   color: #E4F1FE;
 }
 
+@media screen and (max-width: 764px) {
+  #logo {
+    font-size: 1.5em;
+  }
+}
+
 #logo:hover {
   color: #8DC6FF;
 }
